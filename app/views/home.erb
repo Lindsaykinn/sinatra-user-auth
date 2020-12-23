@@ -1,3 +1,4 @@
+  <%#This is the page rendered by the root route, get '/'%>
 <DOCTYPE! html>
 <head>
   
@@ -6,7 +7,9 @@
 <body>
   <h1>Welcome to Hogwarts</h1>
   <h4>Please sign up or log in to access your @hogwarts.edu email account</h4>
+  <%#this link points to the  get '/registrations/signup' route. %>
   <a href="/registrations/signup">Sign Up</a>
+  <%#this link points to the get '/sessions/login' route%>
   <a href="/sessions/login">Log In</a>
 
 </body>
